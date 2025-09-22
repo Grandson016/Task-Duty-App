@@ -1,5 +1,5 @@
 import React from 'react' ;
-import addSymbol from "../assets/addsymbol.svg" ;
+import addSymbol from "../assets/addSymbol.svg" ;
 import { Link } from 'react-router-dom' ;
 import { taskData } from '../db' ;
 import MappedTasks from '../components/MappedTasks' ;
