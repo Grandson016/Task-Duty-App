@@ -8,7 +8,7 @@ const NavLinks = ({isNew,isTask}) => {
     <main>
         <div className='hidden md:flex items-center gap-10'>
                 <ul className='flex items-center gap-10 font-[500] text-[22px] text-[#292929]'>
-                    {!isNew && <Link to="/new-tasks"> New Task</Link>}
+                    {!isNew && <Link to="/new-task"> New Task</Link>}
                     {!isTask &&  <Link to="/all-tasks"> All Tasks</Link>}
                 </ul>
                 <div>
@@ -22,7 +22,7 @@ const NavLinks = ({isNew,isTask}) => {
                 </div>
                 <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm font-[500] text-[22px] text-[#974FD0] border-[#974FD0] border-1">
                     <li>
-                        <a><Link to="/new-tasks"> New Task</Link></a>
+                        <a><Link to="/new-task"> New Task</Link></a>
                     </li>
                     <li>
                         <a><Link to="/all-tasks"> All Tasks</Link></a>

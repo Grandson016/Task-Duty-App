@@ -12,5 +12,5 @@ body {
 }
 
 .wrapper{
-  @apply w-full py-10 px-4 md:py-5 md:px-40 md:px-14 lg:px-40;
+  @apply px-5 md:px-10 lg:px-20 xl:px-40 2xl:px-60 py-10;
 }
